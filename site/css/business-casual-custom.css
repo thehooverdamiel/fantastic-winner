@@ -4,9 +4,14 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+
+/*
+    blue: #123880; red: #A91D1D; (NOT A GREAT RED)
+*/
+
 body {
     font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
-    background-color:#392392;
+    background-color:#123880;
 }
 
 /* Original header/brand font-faily: "Josefin Slab"*/
@@ -30,9 +35,19 @@ p {
 
 hr {
     max-width: 400px;
-    border-color: #999999;
+    border-color: #A91D1D;
+    border-bottom:1px solid #A91D1D;
 }
 
+img {
+    max-width:100%;
+}
+#logo {
+    height:120px;
+}
+.red {
+    color:#A91D1D;
+}
 .brand,
 .address-bar {
     display: none;
@@ -82,10 +97,11 @@ hr {
 }
 
 .intro-text {
-    text-transform: uppercase;
-    font-size: 1.25em;
+    font-size: 1.8em;
     font-weight: 400;
     letter-spacing: 1px;
+    font-weight:bold;
+    padding-bottom:;
 }
 
 .img-border {
